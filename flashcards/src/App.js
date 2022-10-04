@@ -1,23 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button';
+import Menubar from './components/Menubar';
+import Menu from './components/Menu';
+import Flipcards from './components/Flipcards';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Menubar />
+        <img src={logo} className="logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is a place where you feel more comfortable to study Finnish!
         </p>
-        <a
+        <Button />
+        <Flipcards />
+        {/*<a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>*/}
       </header>
+     <body>
+
+     </body>
     </div>
   );
 }
