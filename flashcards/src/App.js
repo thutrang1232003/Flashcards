@@ -3,7 +3,6 @@ import './App.css';
 import Button from './components/Button';
 import Menubar from './components/Menubar';
 import Menu from './components/Menu';
-import Flipcards from './components/Flipcards';
 
 function App() {
   return (
@@ -15,7 +14,7 @@ function App() {
           This is a place where you feel more comfortable to study Finnish!
         </p>
         <Button />
-        <Flipcards />
+      
         {/*<a
           className="App-link"
           href="https://reactjs.org"
